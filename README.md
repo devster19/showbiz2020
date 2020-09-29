@@ -36,7 +36,7 @@
 + Request (application/json)
 
         {
-            "type":"gmmshop",
+            "type":"xyzshop",
             "userData":{
                 "memberId": "xyz-1000873",
                 "name":"สมพล ชอบฟังเพลง",
