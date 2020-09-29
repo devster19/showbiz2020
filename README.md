@@ -1,10 +1,10 @@
-# GMM SHOWBIZ
-ตัวอย่าง API Response สำหรับ GMM SHOWBIZ
+# XYZ SHOWBIZ
+ตัวอย่าง API Response สำหรับ XYZ SHOWBIZ 2020
 
 ## คำอธิบาย Response (object)
 + type : (string) ตัวกำหนดประเภทของ Push Notification
 + userData: {} (object)
-    + id : (string) GMM Member ID
+    + id : (string) XYZ Member ID
     + name : (string) ชือ-สกุล
     + email: (string) อีเมล
     + token: (string) token ของผู้ใช้งาน
@@ -30,7 +30,7 @@
         
 ## Create a New Push Notification [/notification]
 
-### After purchase items from GMM SHOP  [POST]
+### After purchase items from XYZ SHOP  [POST]
 * ทำการยิง push notification โดยส่งรายละเอียดในการสั่งซื้อสินค้า
 
 + Request (application/json)
@@ -38,7 +38,7 @@
         {
             "type":"gmmshop",
             "userData":{
-                "memberId": "gmm-1000873",
+                "memberId": "xyz-1000873",
                 "name":"สมพล ชอบฟังเพลง",
                 "email":"c.somphol19@mail.com"
                 "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi4Liq4Lih4Lie4LilIOC4iuC4reC4muC4n-C4seC4h-C4sOC4nuC4peC4hyJ9",
